@@ -4,7 +4,7 @@ import React from "react";
 import LiquidFillGauge from "react-liquid-gauge";
 
 const Gauge = ({ value }) => {
-  const radius = 180;
+  const radius = 160;
 
   // Function to determine the color based on the value
   const getColor = (value) => {
@@ -41,7 +41,7 @@ const Gauge = ({ value }) => {
   ];
 
   return (
-    <div>
+    <div className="">
       <LiquidFillGauge
         style={{ margin: "0 auto" }}
         width={radius * 2}
