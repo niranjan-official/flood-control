@@ -33,7 +33,7 @@ function App() {
         <header className="p-4 bg-white text-black md:px-16 z-50 relative">
           <h1 className="text-3xl font-bold">Flood Control System</h1>
         </header>
-        <div className="h-full w-full flex items-center p-4 md:p-16 pt-0 home-bg text-white">
+        <div className="h-full w-full flex items-center p-4 pb:16 md:p-16 pt-0 home-bg text-white">
           <div className="flex flex-col">
             <h2 className=" text-4xl md:text-5xl text-white font-bold">
               Automated Flood <br /> Control System
