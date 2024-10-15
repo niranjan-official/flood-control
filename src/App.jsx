@@ -5,7 +5,7 @@ import { onValue, ref } from "firebase/database";
 
 function App() {
   const [value, setValue] = useState(0);
-  const MAX_DISTANCE = 50; // Maximum distance
+  const MAX_DISTANCE = 14; // Maximum distance
 
   useEffect(() => {
     getData();
